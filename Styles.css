@@ -8,3 +8,8 @@ body {
     margin-top: 20px;        /* From 0px and upwards   */
     font-style: serif;      /* italic, oblique, normal */
 }
+    @media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(230, 173, 173);
+  }
+}
